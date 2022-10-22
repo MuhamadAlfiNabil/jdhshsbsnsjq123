@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "X : ";
+    for(int i = 1;i <= 10; i++){
+        cout << i << " ";
+        i *= 1;
+    }
+    cout << endl;
+    cout << "X^2 : ";
+    for(int i = 1;i <= 10; i++){
+        cout << i*i << " ";
+    }
+    cout << endl;
+    cout << "X^3 : ";
+    for(int i = 1;i <= 10; i++){
+        cout << i*i*i << " ";
+    }
+}
